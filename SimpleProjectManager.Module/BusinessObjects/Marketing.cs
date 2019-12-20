@@ -129,12 +129,12 @@ namespace SimpleProjectManager.Module.BusinessObjects.Marketing
             get { return createdOn; }
             internal set { SetProperty(ref createdOn, value); }
         }
-        string tags;
-        public string Tags
-        {
-            get { return tags; }
-            set { SetProperty(ref tags, value); }
-        }
+        //string tags;
+        //public string Tags
+        //{
+        //    get { return tags; }
+        //    set { SetProperty(ref tags, value); }
+        //}
         Customer customer;
         public virtual Customer Customer
         {
